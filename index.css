@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.target-item,
+.increase {
+    font-family: CursedTimerUlil;
+}
+
+@font-face {
+    src: url("CursedTimerUlil-Aznm.ttf");
+    font-family: CursedTimerUlil;
+}
+
+.container {
+    max-width: 575px;
+    background: #1B244A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    color: #EEEEEE;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.target-item {
+    background: #080001;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+    padding: 15px 0px 0px;
+    margin: 21px auto;
+}
+
+.increase-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px auto 35px;
+}
+
+.increase {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    padding: 8px 10.23px 6px;
+    margin: 4px;
+    border-radius: 5px;
+    color: #9AABD8;
+    border: solid 2px #9AABD8;
+}
+
+@media screen and (min-width: 645px) {
+    .container-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        min-height: 100vh;
+    }
+    .container {
+        min-width: 575px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 50px 20px 30px 20px;
+    }
+}
